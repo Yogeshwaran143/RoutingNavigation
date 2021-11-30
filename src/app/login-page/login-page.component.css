@@ -1,0 +1,39 @@
+.container {
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginDiv {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.loginDiv input {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    width: 300px;
+    height: 30px;
+}
+
+.athenTicate {
+    width: 70px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.marginAlign {
+    margin: 10px;
+}

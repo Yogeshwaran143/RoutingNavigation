@@ -1,0 +1,11 @@
+<div class="container center">
+    <div class="loginDiv center marginAlign">
+      <h1> Login Form </h1>
+      <label for="" class="userORemail"> Username / Email </label>
+      <input type="text" class="userName marginAlign" placeholder="Enter username or email" [(ngModel)]="userName">
+      <label for="" class="userORemail"> Password </label>
+      <input type="text" class="password marginAlign" placeholder="Enter password" [(ngModel)]="password">
+      <button class="athenTicate marginAlign" (click)='redirect()'> Login </button>
+      <span class="displayError marginAlign" [innerHtml]='errorDisplay'></span>
+    </div>
+</div>

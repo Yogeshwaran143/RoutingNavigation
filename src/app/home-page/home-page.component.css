@@ -1,0 +1,31 @@
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marginAlign {
+    margin: 10px;
+    padding: 10px;
+}
+
+.optionsDisplay {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.athenTicate {
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.routerTo {
+    color: white;
+    text-decoration: none;
+}

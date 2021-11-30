@@ -1,0 +1,9 @@
+<div class="container center marginAlign">
+    <div class="optionsDisplay center marginAlign">
+        <h1> Choose Invoice options </h1>
+        <button class="viewInvoice marginAlign athenTicate" (click)='userRole()'> View Invoice </button>
+        <button class="createInvoice marginAlign athenTicate" (click)='adminRole()'> Create Invoice </button>
+        <button class="updateInvoice marginAlign athenTicate" (click)='superAdminRole()'> Update Invoice </button>
+        <span class="displayError marginAlign" [innerHtml]='errorDisplay'></span>
+    </div>
+</div>
